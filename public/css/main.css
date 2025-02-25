@@ -380,6 +380,7 @@ p
     margin-left: 10%;
     margin-right: 10%;
     top: 190px;
+  
     border: 1px solid black;
 }
 
@@ -412,8 +413,19 @@ p
     width: 280px;
     background-color: #FFFFFF;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2
+{
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
 }
 
 .menu3
@@ -422,7 +434,18 @@ p
     width: 280px;
     background-color: #FFFFFF;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3
+{
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
 }
 
 .menu4
@@ -431,9 +454,19 @@ p
     width: 280px;
     background-color: #FFFFFF;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.img4
+{
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
+}
 /* ---------------dashboard css footer--------------------*/
 
 .footerdash

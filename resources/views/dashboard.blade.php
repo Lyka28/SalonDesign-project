@@ -57,10 +57,10 @@
     <div class="content1">
         <div class="servicesmenu">Services Menu</div>
         <div class="menuphoto">
-            <div class="menu1"><img class="img1" src="{{ url('img/hair1.jpg') }}" alt=""></div>
-            <div class="menu2"></div>
-            <div class="menu3"></div>
-            <div class="menu4"></div>
+            <div class="menu1"><img class="img1" src="{{ url('img/hair2.jpg') }}" alt=""></div>
+            <div class="menu2"><img class="img2" src="{{ url('img/nail.jpg') }}" alt=""></div>
+            <div class="menu3"><img class="img3" src="{{ url('img/facial1.jpg') }}" alt=""></div>
+            <div class="menu4"><img class="img4" src="{{ url('img/barber.jpg') }}" alt=""></div>
         </div>
     </div>
 
