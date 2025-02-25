@@ -1,0 +1,448 @@
+.container
+{
+    position: relative;
+    background-color: #c61f1f;
+    width: 92%;
+    margin: auto;
+}
+
+
+.box1
+{
+    height: 620px;
+    background-image: linear-gradient(to right, #EFCFD4, #ECBDC4, #E4A0B7, #E18AAA);
+}
+
+
+.logintext
+{
+    margin-top: 200px; 
+    margin-left: 0px; 
+    color: white; 
+    text-shadow:1px 1px grey;
+    text-align: center
+}
+
+.logo
+{
+    position: absolute;
+    top: 10px;
+}
+
+.loginform
+{   
+    position: relative;
+    top: 50px;
+    margin-left: 200px;
+    /*border: 1px solid black;*/
+    height: 300px;  
+}
+
+.regform
+{   
+    position: relative;
+    top: 50px;
+    margin-left: 200px;
+    /*border: 1px solid black;*/
+    height: 300px;  
+}
+
+.forgotyourpass
+{
+    color: red; 
+    text-align: center;
+    margin-left: 160px;
+}
+
+.forgotyourpass a
+{
+    text-decoration: none;
+}
+
+.continuewith
+{
+    position: relative;
+    top: 130px;
+    margin-left: 200px;
+    /*border: 1px solid black;*/
+    height: 150px; 
+    text-align: center;
+
+}
+
+.donthaveanaccount 
+{
+    position: relative;
+    top: 140px;
+    margin-left: 200px;
+    /*border: 1px solid black;*/
+    height: 30px; 
+}
+
+.donthaveanaccount a
+{
+    text-decoration: none;
+}
+
+
+.alreadyhave
+{
+    position: relative;
+    top: 140px;
+    margin-left: 230px;
+    /*border: 1px solid black;*/
+    height: 30px; 
+}
+
+.alreadyhave a
+{
+    text-decoration: none;
+}
+
+.line
+{
+    position: absolute;
+    left: 0%;
+    border: 3px solid #D682B4;
+    width: 100%;
+}
+
+
+
+.footer
+{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    /*border: 1px solid black;*/
+    margin-top: 5px;
+} 
+
+.footermedia
+{
+    position: absolute;
+    /*border: 1px solid black;*/
+    top: 25px;
+    margin-left: 290px;
+
+}
+
+
+/* ---------------dashboard css--------------------*/
+
+
+
+.containerdash
+{
+    position: relative;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.2fr 1fr 1fr 0.2fr;       /* devided in 4 rows*/
+    width: 100%;
+   
+}
+
+/* ---------------dashboard css nav--------------------*/
+
+nav
+{
+    position: relative;
+    left: 0%;
+    border: 1px solid #D682B4;
+    width: 100%;
+}
+
+.logodash
+{
+    position: relative;
+    left: 0%;
+    border: 1px solid #D682B4;
+}
+
+.servicestabs
+{
+    position: absolute;
+    border: 1px solid green;
+    width: 500px;
+    left: 0px;
+    top: 0%;
+
+}
+.navtabs
+{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    top: 0%;
+    
+   
+}
+
+.navtabs2
+{
+    position: relative;
+    height: 70px;
+    width: 80%;
+    top: 0%;
+    margin-left: 10%;              /*this will be the margin to all main divs */
+   
+}
+
+
+.dropdown
+{
+    position: absolute;
+    top: 30%;
+    text-align: right;
+    padding: 0%;
+    right: 248px;
+    border: 1px solid black;
+}
+
+
+.servicestabs a
+{
+    text-decoration: none;
+    color: #333333;
+    padding: 16px;
+}
+
+.forsearch
+{
+    position: absolute;
+    height: 70px;
+    top: 0%;
+    right: 47px;
+    border: 1px solid black;
+}
+.search
+{
+    border-radius: 50px;
+    position: absolute;
+    top: 21%;
+    padding: 0%;
+    left: 0px;
+
+}
+
+.logosearchicon
+{
+    position: relative;
+    top: 18px;
+    left: 87%;
+}
+.forcart
+{
+    position: absolute;
+    height: 70px;
+    top: 0%;
+    right: 0%;
+    padding-left: 16px;
+    border: 1px solid black;
+}
+
+.logocarticon
+{
+    position: relative;
+    top: 18px;
+    left: 0px;
+    
+   
+}
+
+/* ---------------dashboard css main--------------------*/
+
+main
+{
+    position: relative;
+    left: 0%;
+    border: 1px solid blue;
+    width: 100%;
+    height: 682px;
+    background: linear-gradient(to right,#FEE5F8FF, #F8E9F2FF);
+    opacity: 1, 0.6;
+}
+
+.welcome
+{
+    border: 1px solid black;
+    height: 300px;
+    text-align: left;
+    justify-content: center;
+    top: 190px;
+    margin-left: 10%;
+}
+
+
+
+.btnbooknow
+{
+    background-color: #F30793FF;
+    opacity: 0.70;
+    width: 174px;
+    height: 58px;
+    border-radius: 10px;
+    outline: 0px;
+    border: none;
+}
+
+.welcomeletter
+{
+    font-family: Secular One;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.elevate
+{
+    font-family: Inter;
+    font-size: 24px;
+    
+}
+
+.elevate::after                 /* to highlight the Glow in <p>*/
+{
+    content: ' Glow!';
+    color: #F30793;
+    font-weight: bold;
+}
+
+   
+
+
+
+.mainimage
+{
+    position: absolute;
+    border: 1px solid pink;
+    left: 744px;
+    height: 682px;
+    top: 0px;
+}
+
+.imagegirl
+{
+    position: relative;
+    height: 682px;
+    border: 1px solid rgb(16, 13, 13);
+    object-fit: cover;
+    right: 100px;
+} 
+
+p
+{
+    color: #333333;
+}
+
+
+
+
+
+/* ---------------dashboard css content1--------------------*/
+
+.content1
+{
+    position: relative;
+    left: 0%;
+    border: 1px solid green;
+    width: 100%;
+    height: 682px;
+    background-color: #F1F1F1;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+.linedash
+{
+    position: absolute;
+    left: 0%;
+    border: 3px solid #D682B4;
+    width: 100%;
+    top: 750px;
+}
+
+.servicesmenu
+{
+    position: absolute;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 10%;
+    top: 90px;
+}
+
+.menuphoto
+{   
+    position: absolute;   
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 190px;
+    border: 1px solid black;
+}
+
+.menu1
+{
+   
+    height: 280px;
+    width: 280px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+   /* display: inline-block; */
+    padding: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1
+{
+    height: 256px;
+    width: 256px;
+    border-radius: 100%;
+}
+
+.menu2
+{
+    
+    height: 280px;
+    width: 280px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 100px;
+}
+
+.menu3
+{
+    height: 280px;
+    width: 280px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.menu4
+{
+    height: 280px;
+    width: 280px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* ---------------dashboard css footer--------------------*/
+
+.footerdash
+{
+    position: relative;
+    left: 0%;
+    border: 1px solid red;
+    width: 100%;
+    height: 70px;
+}
+
+
