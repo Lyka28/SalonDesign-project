@@ -51,19 +51,31 @@
         </div>
     </main>
 
-    <div class="col-md-12 linedash"></div>
+    <div class="col-md-12 linedash1"></div>
 
 
     <div class="content1">
         <div class="servicesmenu">Services Menu</div>
+
         <div class="menuphoto">
-            <div class="menu1"><img class="img1" src="{{ url('img/hair2.jpg') }}" alt=""></div>
+            <div class="menu1"><img class="img1" src="{{ url('img/hair2.jpg') }}" alt=""><div class="imgcircle1"></div></div>
             <div class="menu2"><img class="img2" src="{{ url('img/nail.jpg') }}" alt=""></div>
             <div class="menu3"><img class="img3" src="{{ url('img/facial1.jpg') }}" alt=""></div>
             <div class="menu4"><img class="img4" src="{{ url('img/barber.jpg') }}" alt=""></div>
         </div>
+
+        <div class="address">
+            <div class="add">
+                <p class="add1"> Address, Misamis Oriental, Philippines</p>
+                <p class="add2"> Samantha Dos</p>
+                <p class="add3"> 09123456789</p>
+            </div>
+        </div>
+
     </div>
 
+
+    <div class="col-md-12 linedash2"></div>
 
 
     <footer class="footerdash">
@@ -79,7 +91,10 @@
             <img src="{{ url('img/logo.png') }}" style="width: 30px;" alt="">
             <a href="">customerservice_kaz@gmail.com</a>
         </div>
-    </footer>
+    </footer>       
+
+
+    
 
 </div>
 @endsection
