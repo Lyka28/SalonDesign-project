@@ -162,8 +162,19 @@ nav
     position: absolute;
     width: 500px;
     left: 0px;
-    top: 0%;
+    top: 3px;
+}
 
+.servicestabs a:hover
+{
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+
+.servicestabs a
+{
+    padding: 20px;
+    
 }
 
 
@@ -187,6 +198,30 @@ nav
     margin-left: 10%;              /*this will be the margin to all main divs */
    
 }
+
+.SignLog
+{
+    position: absolute;
+    top: 30%;
+    text-align: right;
+    padding: 0%;
+    right: 248px;
+}
+
+.SignLog a
+{
+    text-decoration: none;
+    color: #333333;
+    padding: 16px;
+    border-radius: ;
+}
+
+.SignLog a:hover
+{
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+
 
 
 .dropdown
@@ -259,13 +294,16 @@ main
     opacity: 1, 0.6;
 }
 
+
+
 .welcome
 {
     height: 300px;
     text-align: left;
     justify-content: center;
-    top: 190px;
+    top: 185px;
     margin-left: 10%;
+   
 }
 
 
@@ -320,6 +358,7 @@ main
     height: 682px;
     object-fit: cover;
     right: 100px;
+    
 } 
 
 p
@@ -338,7 +377,7 @@ p
     position: relative;
     left: 0%;
     width: 100%;
-    height: 682px;
+    height: 800px;
     background-color: #F1F1F1;
     padding: 0px;
     margin: 0px;
@@ -397,7 +436,8 @@ p
 
 .menu1:hover
 {
-    background-color: #E4A0B7;
+    background-color: #D682B4;
+    opacity: 80%;
 }
 
 
@@ -413,12 +453,12 @@ p
 {
    
     position: absolute;
-    width: 244px;
+    width: 263px;
     height: 80px;
     background-color: #D682B4;
     border-radius:  100px 0 100px 0;
     opacity: 80%;
-    top: 188px;  
+    top: 200px;  
     
 
 
@@ -514,7 +554,7 @@ p
     left: 0%;
     border: 3px solid #D682B4;
     width: 100%;
-    top: 1429px;
+    top: 1550px;
 }
 
 

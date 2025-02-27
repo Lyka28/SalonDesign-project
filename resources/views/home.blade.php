@@ -14,13 +14,9 @@
                     <a href="">Contact Us</a>
                 </div>
                     
-                <div class="dropdown">
-                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> {{ $data->email }}</a>            
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="logout">Logout</a>
-                    </div>
+                <div class="SignLog"> 
+                    <a href="{{ url('/register-user') }}">Sign-in</a>
+                    <a href="{{ url('/login-user') }}" style="color: #FF0808; font-weight: bold;">Login</a>
                 </div>
 
                 <div class="col-md-2 forsearch">

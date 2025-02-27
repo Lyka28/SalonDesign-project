@@ -89,4 +89,17 @@ class HtmlController extends Controller
         }
     }
 
+    public function home()
+    {
+        return view('home');
+    }
+
+
+    public function bookingHair()
+    {
+        return view('bookinghair', compact('data'));  
+    }
+
+
+
 }

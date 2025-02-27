@@ -1,0 +1,4 @@
+problem:
+
+1. bookinghair - cant reflect the users email on the navbar due to error 
+(Undefined variable: data (View: C:\xampp\htdocs\html_tags\resources\views\bookinghair.blade.php))

@@ -26,6 +26,8 @@ Route::post('/register-user', [HtmlController::class,'registerUser']);
 Route::post('/login-user', [HtmlController::class,'loginUser']);
 Route::get('/dashboard', [HtmlController::class, 'dashboard']);
 Route::get('/logout', [HtmlController::class,'logout']);
+Route::get('/home', [HtmlController::class, 'home']);
+Route::get('/bookinghair', [HtmlController::class, 'bookingHair']);
 
 
 
